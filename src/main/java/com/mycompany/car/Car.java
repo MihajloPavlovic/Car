@@ -37,6 +37,7 @@ public class Car {
         this.color = color;
         this.buildYear = buildYear;
         
+        
     }
     
     public void printAttributes() {
@@ -44,6 +45,7 @@ public class Car {
         System.out.println("Model: " + this.model);
         System.out.println("Color: " + this.color);
         System.out.println("Build year: " + this.getbuildYear());
+        System.out.println("Mileage: " + this.getMileage());
     }
 
     public void tavel(int distance) {

@@ -15,5 +15,7 @@ public class Main {
         
         Car lada = new Car("Lada", "Niva", "Green", 2005);
         lada.printAttributes();
+        lada.tavel(100);
+        lada.printAttributes();
     }
 }
