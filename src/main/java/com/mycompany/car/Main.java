@@ -8,14 +8,18 @@ public class Main {
         
         Car audi = new Car();
         audi.printAttributes();
+        audi.brand = "Audi";
+        audi.model = "A4";
+        audi.color = "Black";
+        audi.printAttributes();
         
-        
-        Car bmw = new Car("BMW", "X5", "Red", 2018);
+        Car bmw = new Car("BMW", "X5", "Red", 2018, 0, 20, 5);
         bmw.printAttributes();
         
-        Car lada = new Car("Lada", "Niva", "Green", 2005);
+        Car lada = new Car("Lada", "Niva", "Green", 2005, 0, 20, 5);
         lada.printAttributes();
         lada.tavel(100);
         lada.printAttributes();
+
     }
 }
